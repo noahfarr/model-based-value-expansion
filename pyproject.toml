@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "model-based-value-expansion"
+version = "0.1.0"
+description = "An implementation of model-based value expansion."
+authors = ["Noah Farr <login@noahfarr.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.6.0"
+gymnasium = "0.29.1"
+tyro = "^0.9.17"
+stable-baselines3 = "^2.6.0"
+tensorboard = "^2.19.0"
+mujoco = "^3.3.0"
+imageio = "^2.37.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
